@@ -1,5 +1,11 @@
-/* * {
-  height: 0;
+* {
+  /* height: 0; */
   margin: 0;
   box-sizing: border-box;
-} */
+}
+
+.header-content {
+  height: 20px;
+  width: 100%;
+  background-color: aqua;
+}
