@@ -11,37 +11,34 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+
   </head>
   <body>
-    <header class="header-content">
+    <header>
       <div class="header-itens">
-      <div class="header-image">
-        <img
-          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAa9JREFUSEu11T1oFUEQwPFfNILEUlIEQSzEQjtRG4kgKFpop6SyjRZaCFGbVEKKiGJjo60IYicqiLVKIIikSRQrEVGrJKIgVnkD+8K5vHt79+RNt7cz85+PnbkRQ5aRIfv3P4CtOI6jbPr5jg9YxO8IfhDABGYxhZ01FTiFV4MAzuAxdhRKewn32wIi4keI0pTkBm61AZxPkW+peH6BhziIyx2HY5W7VoBzeJL16xv24G9yOo/rFcBFPMgzGMU0LuAQ4hzyB9uzmjzH2cq3yDCC6MokXueAUAjFphKleY9teIPDyfAXxlNg/zzT03hWibwECkfvsAt7K8r3cKV7zufgZCeSaF5ENYjEoO3Hah0gvseQRI27PWgKWuvU/UTKatOmbpLblusnjmEpj6bfqmiaSTg/go+9Ui3tolIm6widhbo69gLEDvmKm8moXybLONCvSTkgnL1MBrEx5wqQT9jXBhCbMpZaV67hdjr0esJv0/+glpFn8Bm7k/YPxE55WrHOe3IHM00ziOH6kp5aNO0u4m3nUoXEUK00BTQdqNALSPTrasmo9ExL9sX7oQM2AChLSBmff+R5AAAAAElFTkSuQmCC"
-          alt="icone pequeno"
-        />
-      </div>
       <div class="header-nav">
-        <h5>Início</h5>
+        <a href="#home"><h5>Início</h5></a>
         <a href="#eu"><h5>Sobre</h5></a>
+        <a href="#cursos"><h5>Cursos</h5></a>
       </div>
     </header>
-    <section>
-      <div>
+    <section id='home'class="content-profile">
+      <div class="content-img">
         <img
           src="./assets/D46F4102-EF62-442E-A370-EE96803AD5C0.jpg"
           alt="imagem pessoal"
         />
-        <h3>Analista de Sucesso do cliente | Falar em público | Front-end</h3>
-        <h1>Francisco Grimes</h1>
       </div>
-    </div>
+      <div style="align-items: center;">
+        <h3 style="font-size: 17px;">Analista de Sucesso do cliente | Falar em público | Front-end</h3>
+        <h1 style="font-size: 50px;">Francisco Grimes</h1>
+      </div>
+
     </section>
-    <section>
-      <div>
+    <section class="content">
+      <div class="content-info">
+        <div class="info">
         <h2 id="eu">Quem sou eu?</h2>
-        <br />
-        <img src="./assets/WhatsApp Image 2023-06-29 at 22.51.38.jpeg" alt="" />
         <br />
         <p>
           Tenho 23 anos e amante de esportes. Curto viver a vida a lado das
@@ -52,16 +49,39 @@
           empresa, amadurecendo ainda mais a ideia de fazer as pessoas tirarem o
           melhor proveito do que esta nas mãos delas.
         </p>
+      </div>
+        <img src="./assets/WhatsApp Image 2023-06-29 at 22.51.38.jpeg" alt="" style="  width: 100vh;
+        height: auto;" />
+        </div>
+        <div class="content-phrase">
+        <img title='Ayrton Senna' src="./assets/DES20191117048-960x540.jpg" alt="foto de Ayrton Senna" style="  width: 100vh;
+        height: auto;">
+        <div class="phrase">
         <p>
           <i
-            >"Somos insignificantes. Por mais que você programe sua vida, a
-            qualquer momento tudo pode mudar."</i
+            >"O medo faz parte da vida da gente. Algumas pessoas não sabem como enfrentá-lo. Outras, acho que estou entre elas, aprendem a conviver com ele e o encaram não de forma negativa, mas como um sentimento de autopreservação."</i
           >
         </p>
-        <br />
+
         <p>Ayrton Senna</p>
         <br />
       </div>
+        </div>
+    </section>
+    <section id="cursos" class="cursos">
+      <h2>
+        Cursos
+      </h2>
+      <button onclick="mostraInfo()" class="btn-cursos">Informática Básica</button>
+      <button onclick="mostraAlg()" class="btn-cursos">Algoritmo</button>
+      <button onclick="mostraPy()" class="btn-cursos">Python</button>
+      <button onclick="mostraHTML()" class="btn-cursos">HTML5</button>
+      <button onclick="mostraCSS()" class="btn-cursos">CSS3</button>
+      <button onclick="mostraPa()" class="btn-cursos">Persona avançado</button>
+      <button onclick="mostraPd()" class="btn-cursos">Produtos Dígitro</button>
+
+      <script src="./script.js"></script>
+
     </section>
   </body>
 </html>
