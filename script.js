@@ -1,4 +1,4 @@
-alert("Bem vindo à mina página pessoal");
+alert("Bem vindo à minha página pessoal");
 
 // const info = document
 //   .getElementById("botaoInfo")
@@ -7,6 +7,16 @@ alert("Bem vindo à mina página pessoal");
 //   .getElementById("botaoAlg")
 //   .addEventListener("click", mostraAlg);
 // // Repita para os outros botões...
+
+const nome = document.getElementById("myname");
+
+function mostraInformacao() {
+  alert(
+    "Idade: 23 anos\n" +
+      "profissão: Analista de Customer Success Jr.\n" +
+      "Esporte favorito: Corrida"
+  );
+}
 
 function mostraInfo() {
   alert(
