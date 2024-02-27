@@ -87,10 +87,10 @@
   justify-content: center;
   flex-direction: column;
   padding-top: 30px;
-  gap: 20px;
+  padding-right: 35px;
+  gap: 15px;
 }
-.content {
-}
+
 section {
   background-color: #f5f5f5;
   padding: 40px;
@@ -113,4 +113,5 @@ h2 {
 .btn-cursos {
   border: none;
   background-color: #ffc300;
+  cursor: pointer;
 }
